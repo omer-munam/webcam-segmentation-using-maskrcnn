@@ -3,7 +3,9 @@ Segmenting using MaskRCNN by matterport on the live webcam feed.
 
 **INSTRUCTIONS**
 
-*Chocolatey should be installed*
+**INSTALLING CHOCOLATEY**
+
+Run the following command in powershell as administrator: `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
 Then run `choco install make`
 
 *Library versions:*
