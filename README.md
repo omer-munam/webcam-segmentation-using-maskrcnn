@@ -22,6 +22,7 @@ make install -C coco/PythonAPI`
 
 **TO RUN THE APP**
 1. cd into the Mask_RCNN folder
+2. Download rcnn coco weights from matterport repository.
 2. run `python -W ignore init.py`
 
 
